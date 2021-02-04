@@ -1,6 +1,7 @@
 # Node.js Buildpack Changelog
 
 ## main
+- Add support for running "npm ci" when "npm-shrinkwrap.json" is found on the project directory ([#899](https://github.com/heroku/heroku-buildpack-nodejs/pull/899))
 
 ## v186 (2021-08-11)
 - Refactor $WEB_CONCURRENCY logic ([#931](https://github.com/heroku/heroku-buildpack-nodejs/pull/931))
