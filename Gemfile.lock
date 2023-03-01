@@ -3,14 +3,14 @@ GEM
   specs:
     diff-lcs (1.4.4)
     erubis (2.7.0)
-    excon (0.97.2)
+    excon (0.99.0)
     heroics (0.1.2)
       erubis (~> 2.0)
       excon
       moneta
       multi_json (>= 1.9.2)
       webrick
-    heroku_hatchet (7.4.0)
+    heroku_hatchet (8.0.1)
       excon (~> 0)
       platform-api (~> 3)
       rrrretry (~> 1)
@@ -40,7 +40,7 @@ GEM
     sem_version (2.0.1)
     thor (1.2.1)
     threaded (0.0.4)
-    webrick (1.7.0)
+    webrick (1.8.1)
 
 PLATFORMS
   ruby
