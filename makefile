@@ -51,4 +51,5 @@ unit:
 shell:
 	@echo "Opening heroku-20 shell..."
 	@docker run -v $(shell pwd):/buildpack:ro --rm -it heroku/heroku:20 bash -c 'cp -r /buildpack /buildpack_test; cd /buildpack_test/; bash'
-	@echo ""
+	@echo "SMILE"
+makefile
